@@ -1,6 +1,10 @@
 import React from 'react';
 
 class Counter extends React.Component {
+
+  props = {
+    counterName : ''
+  }
   
   state = {
     number: 0
@@ -23,7 +27,8 @@ class Counter extends React.Component {
 
     return (
       <div>
-        <h1>{number}</h1>
+        <h1>{this.props.counterName}</h1>
+        <h4>{number}</h4>
         <button onClick={numberUp}>+</button>
         <button onClick={numberDown}>-</button>
       </div>
