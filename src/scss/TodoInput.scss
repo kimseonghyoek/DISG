@@ -1,7 +1,11 @@
 @import 'default.scss';
 
 #todoInput {
+  margin-top: 20px;
   font-family: 'Comfortaa', cursive;
+  font-size: 24px;
+  border-radius: 25px;
+  padding: 8px;
 }
 
 button {
