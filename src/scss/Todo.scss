@@ -13,10 +13,31 @@
   margin-top: 25px;
   margin-left: 15px;
   margin-bottom: 6px;
+  font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 #today {
   margin-left: 15px;
   margin-top: 6px;
   font-size: 18px;
+  color: gray;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}  
+
+#addTodoBtn {
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  border-radius: 35px;
+  border: solid 0.5px white;
+  background-color: $skyblue;
+  color: $white;
+  margin-bottom: 25px;
+  font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+#wrapBtn {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
 }
