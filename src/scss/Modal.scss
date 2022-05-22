@@ -1,0 +1,12 @@
+@import 'default.scss';
+
+.close {
+  background-color: $red;
+  color: $white;
+  text-align: center;
+  width: 25px;
+}
+
+#modalHeader {
+  display: flex;
+}
